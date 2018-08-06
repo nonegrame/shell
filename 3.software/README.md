@@ -5,10 +5,10 @@
 ### 滾輪捲動行數過少
 `about:config`
 
-then
+搜尋
 
 `mousewheel.min_line_scroll_amount`
-set 45
+設置為 45
 
 ### 網址列 click 全選
 `browser.urlbar.clickSelectsAll`
@@ -26,6 +26,8 @@ set true
 
 沒 source tree 的替代品
 
+https://www.gitkraken.com/
+
 ## grub-customizer
 
 友善 UI 可設定開機選單
@@ -33,3 +35,7 @@ set true
 ## latte-dock
 
 比 docky 潮的 dock
+
+## chrome 
+
+[link](https://www.google.com/intl/zh-TW_ALL/chrome/)
