@@ -1,3 +1,16 @@
+## fcitx
+
+修正 chrome 漏字問題 [link](https://github.com/fcitx/fcitx/issues/405)
+
+/etc/environment
+
+add 
+```
+export GTK_IM_MODULE=fcitx
+export QT_IM_MODULE=fcitx
+export XMODIFIERS=@im=fcitx
+```
+
 ## power level 9k config
 
 ### edit .zshrc
