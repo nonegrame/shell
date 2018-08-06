@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 
+sudo apt-get update
 sudo apt-get -y install fcitx
 sudo apt-get -y install fcitx-config-common fcitx-config-gtk fcitx-config-gtk2
 sudo apt-get -y install fcitx-frontend-all
