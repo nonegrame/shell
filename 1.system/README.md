@@ -1,3 +1,9 @@
+## git
+
+設定 push 時自動建立 remote 分支
+
+`git config --global push.default current`
+
 ## fcitx
 
 修正 chrome 漏字問題 [link](https://github.com/fcitx/fcitx/issues/405)
@@ -10,6 +16,8 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 ```
+
+*已知問題, 第一次鎖定螢幕後, 會無法切出輸入法*
 
 ## power level 9k config
 
