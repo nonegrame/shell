@@ -7,6 +7,7 @@
 ## fcitx
 
 修正 chrome 漏字問題 [link](https://github.com/fcitx/fcitx/issues/405)
+不是解法的解法
 
 /etc/environment
 
@@ -16,8 +17,7 @@ export GTK_IM_MODULE=fcitx
 export QT_IM_MODULE=fcitx
 export XMODIFIERS=@im=fcitx
 ```
-
-*已知問題, 第一次鎖定螢幕後, 會無法切出輸入法*
+系統啟動時, 自動執行 `gtmim.sh` 腳本
 
 ## power level 9k config
 
